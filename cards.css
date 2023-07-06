@@ -1,0 +1,408 @@
+
+body{
+    width: 100%;
+    height: 900px;
+    background-image:
+    radial-gradient(
+      circle closest-side,
+      rgb(39, 73, 109),
+      rgb(20, 40, 80)
+      
+
+    
+    );
+}
+.cont_aba{
+    margin-top: 4%     ;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+header{
+    color: rgb(180, 243, 219);
+    padding: 10px;
+    text-align: center;
+    font-size: 120%;
+    height: auto;
+    font-family:'Segoe UI';
+    text-transform:     uppercase;
+}
+#back{
+  text-decoration: none;
+  margin-left:  90%;
+  color: rgb(180, 243, 219);
+  font-size:  120%;
+}
+#back:hover{
+  color: rgb(240, 248, 245);
+  text-decoration: none;
+}
+
+#phone_input{
+    text-decoration: none;
+    color: #fff;
+}
+#phone_input:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+#x{
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 1em;
+    width: 0.2%;
+    margin-left: 49%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#x:hover{
+color: #da0a0a;
+cursor: pointer;
+}  
+
+.cont_card{
+    background-color:rgb(218, 225, 231);
+    box-shadow: 0px 5px 10px 4px rgba(7, 6, 6, 0.3);
+    color: #323327;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 28px  25%;
+    padding: 10px;
+    border-radius: 16px;
+    transition: all 0.5s ease;
+    font-size:  50%;
+    font-weight: bold;
+}
+.form_card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size:  2em;
+    font-weight: bold;
+}
+.form_delet_card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size:  2em;
+    font-weight: bold;
+}
+input{
+    text-decoration: none;
+    border: none;
+    background-color:   #c9c0ce ;
+    border: none;
+    width: 80%;
+    height: 20px;
+    margin: 5px;
+    padding: 6px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size:  100%;
+    text-decoration: overline;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%
+}
+    input::placeholder{
+        color:   rgb(57, 61, 56);  
+        font-size:  110%;
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 2px;
+    }
+    input:focus{
+    outline: none;
+    box-shadow: rgb(0, 238, 255)0 0 10px     2px;
+ }
+ #name_id_goral{
+  width: 80%;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #009ab5;
+  margin: 10px;
+  color: #fcf5f5;
+  font-size: 20px;
+
+ }
+option{
+  
+  font-size: 28px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  width: 500px;
+  height: 300px;
+  background-color: #f5f0f8;
+  color: #000;
+  cursor:  pointer;
+
+
+ }
+
+    
+   button{
+        cursor: pointer;
+        color: rgb(2, 68, 68);
+        background-color:  rgb(0, 144, 158);
+        transition: all 0.5s ease;
+        border: none;
+        height: 60%;
+        width: 82%;
+        height: 30px;
+        margin: 5px;
+        padding: 6px;
+        border-radius: 5px;
+        transition: all 0.5s ease;
+        font-size:  120%;
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: rgb(1, 5, 0);
+        font-size: 120%;
+        /* box-shadow: rgb(11, 13, 15) 0 0 2px 1px; */
+    }
+   button:hover{
+         box-shadow: rgb(126, 122, 118) 0 0 10px     2px;
+
+    }
+    
+.alert {
+  padding: 1%;
+  height:3%;
+  text-align: center;
+  background-color: #f44336;
+  color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 230px;
+  left: 26%;
+  width:50%;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pulse;
+  animation-duration: 1s;
+}
+
+.closebtn {
+ 
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 80%;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+#title_alert{
+    font-size:25px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(245, 250, 244);
+    margin: 0;
+}
+#vid{
+    width: 70%;
+    height: 80%;
+    margin:  0 auto;
+        
+}
+
+@media screen and (max-width: 700px){
+        .cont_aba{
+            grid-template-columns: 1fr;
+        }
+        #title_alert{
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .alert{
+            
+            width: 90%;
+            left: 4%;
+            margin-top:   -5%;
+        }
+        header{
+            font-size: 80%;
+        }
+        .cont_card{
+            margin: 28px  10%;
+        }
+        .cont_card{
+            width: 70%;
+        }
+        input{
+            width: 80%;
+        }
+        input::placeholder{
+            font-size:  120%;
+        }
+        button{
+            font-size:  80%;
+        }
+        
+    }
+
+
+    @media screen and ( max-width: 450px){
+  html{
+  max-width: auto;
+  min-width: auto;
+  width: 380;
+  min-zoom: 0.5;
+  }
+  body{
+    width: 98%;
+   margin-right: auto;
+   
+  }
+ 
+
+
+
+
+.screenshot-image {
+  width: 150px;
+  height: 90px;
+  border-radius: 4px;
+  border: 2px solid whitesmoke;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  background: white;
+}
+
+.display-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 5% auto;
+  position: relative;
+}
+
+video {
+  width: 60%;
+  height: 40%;
+  text-align: center;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: 2px solid rgb(39, 33, 6)
+}
+
+.video-options {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+.controls {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+}
+
+.controls > button {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  border-radius: 100%;
+  margin: 0 6px;
+  background: transparent;
+}
+.controls > button:hover svg {
+  color: white !important;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .controls {
+    flex-direction: column;
+  }
+  .controls button {
+    margin: 5px 0 !important;
+  }
+}
+.controls > button > svg {
+  height: 20px;
+  width: 18px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.controls button:nth-child(1) {
+  border: 2px solid #D2002E;
+}
+.controls button:nth-child(1) svg {
+  color: #D2002E;
+}
+
+.controls button:nth-child(2) {
+  border: 2px solid #008496;
+}
+.controls button:nth-child(2) svg {
+  color: #008496;
+}
+
+.controls button:nth-child(3) {
+  border: 2px solid #00B541;
+}
+.controls button:nth-child(3) svg {
+  color: #00B541;
+}
+
+.controls > button {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  border-radius: 100%;
+  margin: 0 6px;
+  background: transparent;
+}
+.controls > button:hover svg {
+  color: white;
+}
+    }
